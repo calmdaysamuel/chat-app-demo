@@ -1,0 +1,54 @@
+@import "../../styles.scss";
+
+.explore-page {
+  box-shadow: 0 0 54px rgba(33, 33, 33, 0.2);
+  border-radius: 18px;
+  overflow: hidden;
+  padding: 24px;
+
+  overflow-y: scroll;
+}
+.user-avatar {
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
+  border: 1px $primary-black solid;
+}
+
+.contact,
+.contact-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 0px;
+  border-bottom: 1px #c1c1c155 solid;
+}
+
+.contact:hover {
+  background-color: $accent-white;
+  cursor: pointer;
+}
+.contact-name {
+  font-weight: 600;
+}
+
+.latest-message {
+  color: #c1c1c1;
+  font-size: 12px;
+}
+
+.logout-button {
+  margin-left: auto;
+  margin-right: 0;
+  color: $primary-white;
+  background-color: $accent-black;
+  font-size: 13px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.info-text {
+  margin: 8px 0px 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
